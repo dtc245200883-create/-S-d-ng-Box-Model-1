@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center; margin-top: 20px;">So Sánh Chế Độ Box Model</h1>
+
+    <div class="container">
+        <!-- Thẻ 1: content-box (Xanh lá) -->
+        <div class="card">
+            <h3>Card 1 (content-box)</h3>
+            <p>Sử dụng <code>content-box</code>. Kích thước thực tế sẽ bị phình to hơn do cộng thêm padding và border.</p>
+        </div>
+
+        <!-- Thẻ 2: border-box (Vàng) -->
+        <div class="card">
+            <h3>Card 2 (border-box)</h3>
+            <p>Sử dụng <code>border-box</code>. Kích thước thực tế đúng chính xác 280px x 150px.</p>
+        </div>
+
+        <!-- Thẻ 3: border-box (Đỏ) -->
+        <div class="card">
+            <h3>Card 3 (border-box)</h3>
+            <p>Cũng sử dụng <code>border-box</code>. Giúp quản lý bố cục nhất quán và dễ dàng hơn.</p>
+        </div>
+    </div>
+
+</body>
+</html>
